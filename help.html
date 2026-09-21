@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Help – LifePilot</title>
+  <meta name="description" content="How to use LifePilot – dashboard, tasks, expenses, bills, reminders, backup, and Free vs Pro." />
+  <link rel="canonical" href="https://lifepilot.ilqix.com/help.html" />
+  <link rel="icon" href="images/lifepilot-logo.jpg" type="image/jpeg" />
+  <style>
+    :root {
+      --ink: #1a1f36;
+      --muted: #5b647a;
+      --bg: #f1f5f9;
+      --paper: #ffffff;
+      --line: #dbe4ee;
+      --accent: #2451c4;
+      --accent-soft: #dbe7ff;
+      --gold: #b45309;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 500px at 10% -10%, #dbe7ff 0%, transparent 55%),
+        radial-gradient(900px 400px at 100% 0%, #c8f5ef 0%, transparent 50%),
+        var(--bg);
+      line-height: 1.65;
+    }
+
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+
+    header {
+      margin-bottom: 1.75rem;
+      padding-bottom: 1.35rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 700;
+      margin: 0 0 0.5rem;
+    }
+
+    h1 {
+      margin: 0 0 0.55rem;
+      font-size: clamp(1.85rem, 4.5vw, 2.4rem);
+      line-height: 1.15;
+      font-weight: 800;
+    }
+
+    .tagline {
+      margin: 0;
+      color: var(--gold);
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    nav.toc {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    nav.toc h2 {
+      margin: 0 0 0.6rem;
+      font-size: 1rem;
+      color: var(--accent);
+    }
+
+    nav.toc ol {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+
+    nav.toc li { margin-bottom: 0.3rem; }
+
+    section {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.25rem 1.35rem;
+      margin-bottom: 1rem;
+      scroll-margin-top: 1rem;
+    }
+
+    .hero {
+      background: linear-gradient(160deg, var(--accent-soft) 0%, var(--paper) 70%);
+      border-color: #bfdbfe;
+    }
+
+    h2 {
+      margin: 0 0 0.7rem;
+      font-size: 1.15rem;
+      color: var(--accent);
+      font-weight: 800;
+    }
+
+    h3 {
+      margin: 1rem 0 0.45rem;
+      font-size: 1rem;
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    p, li {
+      color: var(--ink);
+      margin: 0 0 0.75rem;
+    }
+
+    p:last-child, ul:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 0 0 0.75rem;
+      padding-left: 1.2rem;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    .tip {
+      margin-top: 0.85rem;
+      padding: 0.75rem 0.9rem;
+      background: var(--accent-soft);
+      border-radius: 10px;
+      border: 1px solid #bfdbfe;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 1.5rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    .page-links {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem 1.15rem;
+      margin: 0.85rem 0 0;
+      font-size: 0.95rem;
+    }
+
+    .get-app {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0.55rem 1.1rem;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #fff !important;
+      text-decoration: none !important;
+      font-weight: 800;
+    }
+
+    .share-app {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      min-height: 44px;
+      padding: 0.55rem 1.1rem;
+      border-radius: 999px;
+      border: 1.5px solid var(--accent);
+      color: var(--accent) !important;
+      text-decoration: none !important;
+      font-weight: 800;
+    }
+
+    .share-icon {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="brand"><a href="index.html" style="color: inherit; text-decoration: none;">LifePilot</a></p>
+      <h1>Help</h1>
+      <p class="tagline">How to use LifePilot — organise, remember, and manage everyday life</p>
+      <p class="page-links">
+        <a class="get-app" href="app.html">Get the app</a>
+        <a class="share-app" href="app.html" data-share-app>Share App</a>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+      </p>
+    </header>
+
+    <section class="hero">
+      <h2>Welcome</h2>
+      <p>
+        LifePilot helps you organise important parts of everyday life in one place:
+        tasks, reminders, expenses, bills, subscriptions, important dates, notes, journal,
+        goals, home items, vehicles, and more.
+      </p>
+      <p>
+        Everything is stored on your device. No LifePilot account is required to start using the app.
+      </p>
+    </section>
+
+    <nav class="toc" aria-label="Help topics">
+      <h2>Quick topics</h2>
+      <ol>
+        <li><a href="#getting-started">Getting started</a></li>
+        <li><a href="#navigation">Navigation</a></li>
+        <li><a href="#dashboard">Dashboard &amp; Quick Add</a></li>
+        <li><a href="#manage">Tasks, reminders &amp; follow-ups</a></li>
+        <li><a href="#money">Expenses, bills &amp; subscriptions</a></li>
+        <li><a href="#life">Dates, notes, journal &amp; goals</a></li>
+        <li><a href="#assets">Documents, home &amp; vehicles</a></li>
+        <li><a href="#notifications">Notifications</a></li>
+        <li><a href="#backup">Backup &amp; Google Drive</a></li>
+        <li><a href="#free-pro">Free vs Pro</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+        <li><a href="#tips">Tips &amp; contact</a></li>
+      </ol>
+    </nav>
+
+    <section id="getting-started">
+      <h2>Getting started</h2>
+      <ul>
+        <li>Install LifePilot and open it — you can start immediately.</li>
+        <li>Allow notifications when prompted so reminders can fire on time.</li>
+        <li>Use <strong>Quick Add</strong> on the Home tab to create your first task, expense, or note.</li>
+      </ul>
+      <p class="tip">
+        LifePilot works fully offline for normal use. Internet is only needed for optional Google Drive backup (Pro) and store subscription operations.
+      </p>
+    </section>
+
+    <section id="navigation">
+      <h2>Navigation</h2>
+      <p>The bottom bar has five areas:</p>
+      <ul>
+        <li><strong>Home</strong> — dashboard and attention items</li>
+        <li><strong>Manage</strong> — tasks, reminders, follow-ups</li>
+        <li><strong>Money</strong> — expenses, bills, subscriptions</li>
+        <li><strong>Life</strong> — important dates, goals &amp; habits, notes, journal</li>
+        <li><strong>More</strong> — documents, home, vehicles, search, reports, settings</li>
+      </ul>
+    </section>
+
+    <section id="dashboard">
+      <h2>Dashboard &amp; Quick Add</h2>
+      <p>Home shows what needs attention today and upcoming items for the next few weeks.</p>
+      <ul>
+        <li>Tap a card or list item to open the related record.</li>
+        <li>Use the <strong>+</strong> button for Quick Add shortcuts.</li>
+      </ul>
+    </section>
+
+    <section id="manage">
+      <h2>Tasks, reminders &amp; follow-ups</h2>
+      <h3>Tasks</h3>
+      <ul>
+        <li>Add a title, priority, due date, notes, category, and optional recurrence.</li>
+        <li>Mark tasks complete when done; swipe or use delete to remove (soft-delete).</li>
+      </ul>
+      <h3>Reminders</h3>
+      <ul>
+        <li>Set a date and time; LifePilot schedules a local notification.</li>
+        <li>Repeat options help with recurring check-ins.</li>
+      </ul>
+      <h3>Follow-ups</h3>
+      <ul>
+        <li>Track a person, subject, due date, status, and notes so conversations don’t get lost.</li>
+      </ul>
+    </section>
+
+    <section id="money">
+      <h2>Expenses, bills &amp; subscriptions</h2>
+      <ul>
+        <li><strong>Expenses</strong> — log income or expense with amount, date, category, and notes. View a simple monthly summary.</li>
+        <li><strong>Bills</strong> — name, amount, due date, frequency, and reminder.</li>
+        <li><strong>Subscriptions</strong> — provider, cost, billing frequency, next billing date, and active/cancelled status.</li>
+      </ul>
+    </section>
+
+    <section id="life">
+      <h2>Dates, notes, journal &amp; goals</h2>
+      <ul>
+        <li><strong>Important dates</strong> — birthdays, anniversaries, events, and custom dates with yearly recurrence.</li>
+        <li><strong>Notes</strong> — text notes with categories, tags, and search.</li>
+        <li><strong>Journal</strong> — dated entries with optional photos.</li>
+        <li><strong>Goals &amp; habits</strong> — track progress, frequency, and streaks.</li>
+      </ul>
+    </section>
+
+    <section id="assets">
+      <h2>Documents, home &amp; vehicles</h2>
+      <ul>
+        <li><strong>Documents</strong> — the Document Vault (Pro) stores PDFs and images with expiry reminders.</li>
+        <li><strong>Home</strong> — appliances and items with purchase and warranty dates.</li>
+        <li><strong>Vehicles</strong> — registration, insurance, service dates, and odometer notes.</li>
+      </ul>
+      <p class="tip">
+        Large files are stored as attachments on your device, not inside the database. Backups can include them.
+      </p>
+    </section>
+
+    <section id="notifications">
+      <h2>Notifications</h2>
+      <p>LifePilot uses local device notifications — not a push server.</p>
+      <ul>
+        <li>Keep notification permission enabled for reliable reminders.</li>
+        <li>On Android, allow alarms / exact alarms if your device asks, and avoid aggressive battery restrictions for LifePilot.</li>
+      </ul>
+    </section>
+
+    <section id="backup">
+      <h2>Backup &amp; Google Drive</h2>
+      <ul>
+        <li>Create a local LifePilot backup file from <strong>Settings → Backup &amp; Restore</strong>.</li>
+        <li>Restore only after confirming — restore replaces your current local data.</li>
+        <li>Google Drive backup and restore are Pro features and upload to <strong>your</strong> Drive folder (LifePilot), not a developer account.</li>
+      </ul>
+    </section>
+
+    <section id="free-pro">
+      <h2>Free vs Pro</h2>
+      <p>LifePilot is one application. Free and Pro are entitlements inside the same app.</p>
+      <ul>
+        <li><strong>Free</strong> — core modules with sensible limits.</li>
+        <li><strong>Pro</strong> — higher limits, Document Vault, advanced search &amp; reports, export, Google Drive backup.</li>
+      </ul>
+      <p class="tip">
+        If Pro expires, your local data is not deleted. Free features keep working; Pro-only features become unavailable until you renew.
+      </p>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy</h2>
+      <p>
+        LifePilot is local-first: no LifePilot login and no LifePilot cloud sync for everyday data.
+        See the full <a href="privacy.html">Privacy Policy</a>.
+      </p>
+    </section>
+
+    <section id="tips">
+      <h2>Tips &amp; contact</h2>
+      <ul>
+        <li>Use Quick Add when you only have a few seconds.</li>
+        <li>Keep the app updated from the store for fixes and improvements.</li>
+        <li>Share the install page: <a href="app.html">Get LifePilot</a>.</li>
+      </ul>
+      <p>
+        Need more help? Email
+        <a href="mailto:gatepass.codex@gmail.com">gatepass.codex@gmail.com</a>
+        with your question, device type, and a short description of the issue.
+      </p>
+    </section>
+
+    <footer>
+      <p class="page-links" style="justify-content: center;">
+        <a href="app.html">Get the app</a>
+        <a href="app.html" data-share-app>Share App</a>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="privacy.html">Privacy</a>
+      </p>
+      © Gatepass Codex · LifePilot — Help Centre
+    </footer>
+  </main>
+  <script src="js/share-app.js"></script>
+</body>
+</html>
