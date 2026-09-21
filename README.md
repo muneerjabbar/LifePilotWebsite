@@ -28,7 +28,7 @@ No `pro-app.html` — Free and Pro are one app.
 
 Edit placeholders in `js/app-share.js` and the buttons in `app.html`:
 
-- Google Play: `https://play.google.com/store/apps/details?id=com.lifepilot.app`
+- Google Play: `https://play.google.com/store/apps/details?id=com.codex.lifepilot`
 - App Store: replace `id0000000000` when Apple assigns a real ID; set `iosReady = true` in `app-share.js`
 
 ## Local preview

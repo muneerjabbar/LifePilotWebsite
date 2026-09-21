@@ -1,7 +1,7 @@
 (function () {
   // Placeholder store URLs — replace when listings are live.
   var PLAY_STORE =
-    'https://play.google.com/store/apps/details?id=com.lifepilot.app';
+    'https://play.google.com/store/apps/details?id=com.codex.lifepilot';
   var APP_STORE =
     'https://apps.apple.com/app/lifepilot/id0000000000';
 
