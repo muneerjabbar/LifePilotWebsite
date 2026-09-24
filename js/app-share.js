@@ -47,6 +47,6 @@
 
   if (statusEl) {
     statusEl.textContent =
-      'LifePilot will be available on Google Play and the App Store. Use the buttons below (links are placeholders until publish).';
+      'LifePilot is on Google Play. On iOS, launch is coming soon — use the buttons below.';
   }
 })();

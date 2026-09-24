@@ -5,17 +5,21 @@
   }
 
   var TEXT =
-    'Hi!\n\n' +
-    'I use LifePilot to organise everyday life in one place.\n\n' +
-    'With the app, you can:\n\n' +
-    '• Track tasks, reminders, and follow-ups\n' +
-    '• Manage expenses, bills, and subscriptions\n' +
-    '• Remember important dates, notes, and goals\n' +
-    '• Keep everything local on your device — no account needed\n\n' +
+    'LifePilot — your all-in-one personal life assistant\n\n' +
+    'Stay on top of everything that matters — without accounts, ads, or clutter. Your data stays on your phone.\n\n' +
+    'What you can do with LifePilot:\n' +
+    '• Dashboard for today & upcoming tasks, bills, calls, and more\n' +
+    '• Tasks, reminders, follow-ups, and important dates\n' +
+    '• Expense & income tracking, bills, subscriptions, and loans/IOUs\n' +
+    '• Schedule calls, call trees, favourite contacts & groups, Bulk SMS\n' +
+    '• Journal with photos, notes, goals & habits\n' +
+    '• Document vault with expiry reminders\n' +
+    '• Period calendar\n' +
+    '• Optional PIN lock for privacy\n' +
+    '• Google Drive backup & restore (Pro)\n\n' +
+    'Free to start. Upgrade to Pro when you need the vault, Drive backup, reports, and higher limits.\n\n' +
     'Install LifePilot:\n' +
-    appUrl() +
-    '\n\n' +
-    'Organise. Remember. Manage.';
+    appUrl();
 
   var ICON =
     '<svg class="share-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>';

@@ -115,14 +115,15 @@
     <header>
       <p class="brand"><a href="index.html" style="color: inherit; text-decoration: none;">LifePilot</a></p>
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: 21 September 2026</p>
+      <p class="updated">Last updated: 23 September 2026</p>
     </header>
 
     <section>
       <h2>Overview</h2>
       <p>
         LifePilot (“we”, “our”, or “the app”) is a personal life management assistant that helps you
-        organise tasks, expenses, bills, reminders, documents, and related everyday information.
+        organise tasks, phone call plans, expenses, loans, bills, reminders, journal entries,
+        cycle tracking, documents, and related everyday information.
         LifePilot is designed as a <strong>local-first</strong> app: your everyday data stays on your device.
         This Privacy Policy explains what information is used and how.
       </p>
@@ -134,10 +135,11 @@
     <section>
       <h2>Information we collect</h2>
       <ul>
-        <li><strong>Content you create in the app</strong> — for example tasks, notes, expenses, bills, journal entries, goals, home/vehicle records, and document metadata.</li>
+        <li><strong>Content you create in the app</strong> — for example tasks, notes, expenses, loans, bills, journal entries, goals, scheduled calls, call trees, period/cycle entries, home/vehicle records, and document metadata.</li>
+        <li><strong>Contacts you choose to import</strong> — names and phone numbers you select from your device address book (with permission), stored locally for call plans, groups, and SMS compose.</li>
         <li><strong>Attachments you add</strong> — such as photos, receipts, or PDFs stored as files on your device with metadata in the local database.</li>
         <li><strong>App settings</strong> — preferences such as notification or security options you configure.</li>
-        <li><strong>Device permissions data</strong> — such as notifications, photos/files, or biometrics when you grant them — used only for those features.</li>
+        <li><strong>Device permissions data</strong> — such as notifications, contacts, phone/dialer, camera, or photos/files when you grant them — used only for those features.</li>
       </ul>
       <p>
         LifePilot does <strong>not</strong> require a LifePilot account, does <strong>not</strong> operate a LifePilot cloud backend for everyday sync,
@@ -148,9 +150,10 @@
     <section>
       <h2>How we use information</h2>
       <ul>
-        <li>To provide app features such as lists, reminders, summaries, search, and reports on your device.</li>
-        <li>To schedule local notifications when you enable them.</li>
-        <li>To create backups you request, including optional upload to Google Drive when you connect your own Google account (Pro).</li>
+        <li>To provide app features such as lists, reminders, call plans, call trees, SMS compose helpers, summaries, search, and reports on your device.</li>
+        <li>To schedule local notifications when you enable them (using your device timezone).</li>
+        <li>To open your Phone or Messages app when you choose to place a call or send SMS — LifePilot does not place cellular calls or send SMS silently in the background.</li>
+        <li>To create backups you request — Pro Google Drive backup &amp; restore to a folder you control (LifePilot), including attached files.</li>
         <li>To process subscriptions through Google Play or the Apple App Store when you purchase Pro.</li>
       </ul>
     </section>
@@ -161,6 +164,7 @@
         If you enable Google Drive backup, LifePilot communicates directly with Google using your authorization.
         Backups are stored in a folder you control (typically <strong>My Drive / LifePilot</strong>).
         LifePilot does not upload your data to a developer-controlled Drive account.
+        After you connect once, LifePilot can remember your Google account on this device so you are not prompted every time; you can remove it in Settings.
       </p>
       <p>
         Google OAuth tokens are stored using the device’s secure storage mechanisms, not as plain fields in the app database.
@@ -188,10 +192,12 @@
     <section>
       <h2>Permissions</h2>
       <ul>
-        <li><strong>Notifications / alarms</strong> – optional; for reminders and due-date alerts.</li>
-        <li><strong>Photos / files</strong> – optional; to attach images or documents you choose.</li>
-        <li><strong>Biometrics / device lock</strong> – optional; to protect opening the app on your device.</li>
-        <li><strong>Internet</strong> – for optional Drive backup/restore and store subscription operations.</li>
+        <li><strong>Notifications / alarms</strong> – optional; for reminders, due dates, and call alerts.</li>
+        <li><strong>Contacts</strong> – optional; to import people you choose for calls, groups, and SMS.</li>
+        <li><strong>Phone / dialer</strong> – optional; to open or place a call when you choose.</li>
+        <li><strong>Camera / photos / files</strong> – optional; for journal photos and document attachments.</li>
+        <li><strong>App lock (PIN)</strong> – optional; PIN is stored only on your device to protect opening the app.</li>
+        <li><strong>Internet</strong> – for optional Drive backup/restore, store subscription operations, and opening website or WhatsApp links you tap.</li>
       </ul>
       <p>Denying a permission does not crash the app; related features show guidance instead.</p>
     </section>
