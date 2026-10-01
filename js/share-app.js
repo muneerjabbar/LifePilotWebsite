@@ -8,16 +8,16 @@
     'LifePilot — your all-in-one personal life assistant\n\n' +
     'Stay on top of everything that matters — without accounts, ads, or clutter. Your data stays on your phone.\n\n' +
     'What you can do with LifePilot:\n' +
-    '• Dashboard for today & upcoming tasks, bills, calls, and more\n' +
+    '• Dashboard for today, plus home-screen widgets\n' +
     '• Tasks, reminders, follow-ups, and important dates\n' +
-    '• Expense & income tracking, bills, subscriptions, and loans/IOUs\n' +
-    '• Schedule calls, call trees, favourite contacts & groups, Bulk SMS\n' +
-    '• Journal with photos, notes, goals & habits\n' +
-    '• Document vault with expiry reminders\n' +
-    '• Period calendar\n' +
-    '• Optional PIN lock for privacy\n' +
-    '• Google Drive backup & restore (Pro)\n\n' +
-    'Free to start. Upgrade to Pro when you need the vault, Drive backup, reports, and higher limits.\n\n' +
+    '• Expense & income, bills, subscriptions, and loans/IOUs with repayments\n' +
+    '• Schedule calls (with your ringtone), call trees, contacts, and Bulk SMS\n' +
+    '• Tools: world clock, stopwatch, timer, QR and barcode, compass, digital ruler, voice recorder, calendar\n' +
+    '• PDF Scanner/Creator and Advance Calculator (Pro)\n' +
+    '• Journal, notes, goals, menstrual calendar, and document vault\n' +
+    '• Optional PIN lock\n' +
+    '• Google Drive backup, including an optional daily backup (Pro)\n\n' +
+    'Free to start. Upgrade to Pro for the vault, scanner, calculator, Drive backup, reports, and higher limits.\n\n' +
     'Install LifePilot:\n' +
     appUrl();
 
