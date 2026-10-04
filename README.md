@@ -18,7 +18,7 @@ No `pro-app.html` — Free and Pro are one app (`com.codex.lifepilot`).
 
 ## Feature coverage on the site
 
-Landing and Help cover: Manage, Money, Life, Tools (world clock, QR, barcode, compass, voice recorder, calendar; PDF Scanner/Creator and Advance Calculator are Pro), home-screen widgets, local notifications, Drive backup including Auto Daily Backup, Free vs Pro.
+Landing and Help cover: Manage, Money (charts, borrowed & lent share), Life (document tags/OCR), Tools (world clock, QR, barcode, compass, measure, digital ruler, voice recorder, calendar; PDF Scanner/Creator and Advance Calculator are Pro), home-screen widgets (World Clock, Voice record, Quick Add), calendar sync, local notifications, Drive backup including Auto Daily Backup, Free vs Pro.
 
 ## Deploy on GitHub Pages
 
