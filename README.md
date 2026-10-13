@@ -2,7 +2,7 @@
 
 Static marketing site for **LifePilot** — ready for a separate GitHub repository and GitHub Pages.
 
-**Domain:** https://lifepilot.ilqix.com/
+**Domain:** https://lifepilot.noorapps.net/
 
 ## Pages
 
@@ -10,7 +10,7 @@ Static marketing site for **LifePilot** — ready for a separate GitHub reposito
 |------|---------|
 | `index.html` | Main landing page |
 | `app.html` | Android / iOS download (placeholder store links) |
-| `aboutus.html` | About Gatepass Codex / LifePilot |
+| `aboutus.html` | About Noor Apps / LifePilot |
 | `help.html` | Help centre (full feature guide) |
 | `privacy.html` | Privacy policy (store disclosure) |
 
@@ -25,8 +25,8 @@ Landing and Help cover: Manage, Money (charts, borrowed & lent share), Life (doc
 1. Create a new repository (for example `lifepilot-website`).
 2. Copy the contents of this `website/` folder to the repo root.
 3. Enable **Settings → Pages → Deploy from branch** (`main` / root).
-4. Point DNS CNAME for `lifepilot.ilqix.com` to GitHub Pages.
-5. The included `CNAME` file sets the custom domain to `lifepilot.ilqix.com`.
+4. Point DNS CNAME for `lifepilot.noorapps.net` to GitHub Pages.
+5. The included `CNAME` file sets the custom domain to `lifepilot.noorapps.net`.
 
 ## Update store links
 
